@@ -2,11 +2,12 @@
 
  Developers:
 1. George Borisov
+<h2>Introduction</h2>
+In the 21 century, there are thousands of research works and communities that dedicate their time to exploring the biology of our brain. 
+.Those works have been started at about 50 years ago, but the most significant steps will take a place in the nearest future. Luckily we have more and more startups willing to take a part in creating technologies that potentially could make our medicine more capable to help people with 
+brain damages, Parkinson's and Alzeigmer's. We could use those techologies in many kinds of humankind's activities, for example astronauts using implanted BCI could remote control the manipulator instead of going out in space to catch a radiation. All in all, I think Biotechologies in collaboration with Engeneering and Neuroscience could make our future better and healthier.
 <h2>High-Level Overview</h2>
-This web app is inspired by the creative sites referring to the development of BCI like neuralink.com, neiry-bci.com.
-Moreover, I find the theme of BCI* very attractive to me, I do intend to create or help to create the startup.
-So this web app is like a fundament for my future career. I decided to create an app that will be used as a site for the startup and as a
-kinda blog where scientist, neuroscientist, engineers, I mean everyone who works in this sphere could post their own ideas, thoughts, and proposals absolutely free.
+This web application is dedicated to providing a platform for sharing knowledge, ideas, thoughts in researching the biology of the brain, engineering of the brain, creation of BCI, and other topics relating to brain researches(maybe genetics). Here you could connect, collaborate with people who have a common interest in the subject. You could create your group of people for startup and post a story about your innovative idea with the ability to fund your project. Here you could ask any professor or specialist for advice in a comfortable way.
 
 <p>*BCI: Brain-computer inteface</p>
 ![BCI](https://cdn.the-scientist.com/assets/articleNo/68762/aImg/42181/bci-article-s.png)
