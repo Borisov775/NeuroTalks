@@ -1,4 +1,4 @@
-# BrainComputerInterfaces
+# Neuro-BioTalks
 
  Developers:
 1. George Borisov
