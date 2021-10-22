@@ -1,6 +1,8 @@
 # BrainComputerInterfaces
-"**Building better future for mankind"**
 
+ Developers:
+1. George Borisov
+<h2>High-Level Overview</h2>
 This web app is inspired by the creative sites referring to the development of BCI like neuralink.com, neiry-bci.com.
 Moreover, I find the theme of BCI* very attractive to me, I do intend to create or help to create the startup.
 So this web app is like a fundament for my future career. I decided to create an app that will be used as a site for the startup and as a
