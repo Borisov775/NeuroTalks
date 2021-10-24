@@ -25,7 +25,7 @@ There are two types of user:
 </ul>
 For singing up you could create a new login and password or you can sign up through Google,Twitter and Facebook.
 In order to become a publisher you send a request after signing up like a User.
-<h3>Fucntionality</h3>
+<h3>Functionality</h3>
 <b>IN THE DEVOLOPMENT(DURING THE IMPLEMENTATION I WILL BE UPDATING THIS PARAGRAPH)</b>
 <p>
 In a nutshell, every user will have an account. But the main actions will be procceding on the main page(HOME).On this page 
