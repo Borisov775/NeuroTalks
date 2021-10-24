@@ -14,7 +14,7 @@ This web application is dedicated to providing a platform for sharing knowledge,
 <li><b> A capability to store definite (which you are interested in) works in your account</b></li>
 <li><b> Great educational resources for growing like a specialist</b></li>
 <li><b> Here you could know more about BCI and other hardware<b></li>
-<li><b>Place for inspiration, you could share you ideas, thoughts reffering to your field of researching</li><b>
+<li><b>A place for inspiration, you could share your ideas, thoughts referring to your field of researching</li><b>
 </ul> 
 <h2> Functional details</h2>
 <h3>Signing up</h3>
