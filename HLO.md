@@ -32,7 +32,7 @@ In a nutshell, every user will have an account. But the main actions will be pro
 users will be posting your works, links for the meetings, ideas. User serfing through these resources could attach to BOOKMARKS all what they find interesting.  
 <h3>Technical Details</h3>
 <ul>
-<li><b>Primary languagies: Java,HTML</b></li>
+<li><b>Primary languages: Java,HTML</b></li>
 <li><b>Web-Server: Apache</b></li>
 <li><b>Database: MariaDB</b></li>
 </ul>
