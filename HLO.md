@@ -23,7 +23,7 @@ There are two types of user:
 <li><b>User(can use all functional, except publushing works in a global view)</b></li>
 <li><b>Publisher(can publish a research works,create links for meetings)</b></li>
 </ul>
-For singing up you need to create a new login and password or you can sign up through Google,Twitter and Facebook.
+For singing up you need to create a new login and password or you can sign in with Google,Twitter and Facebook.
 In order to become a publisher you send a request after signing up like a User.
 <h3>Functionality</h3>
 <b>IN THE DEVOLOPMENT(DURING THE IMPLEMENTATION I WILL BE UPDATING THIS PARAGRAPH)</b>
