@@ -20,7 +20,7 @@ This web application is dedicated to providing a platform for sharing knowledge,
 <h3>Signing up</h3>
 There are three types of user:
 <ul>
-<li><b>Guest(can't see anything, until sign up or log in)<li><b>
+<li><b>Guest(can't see anything, until sign up or log in)</b></li>
 <li><b>User(can use all functional, except publushing works in a global view)</b></li>
 <li><b>Publisher(can publish a research works,create links for meetings)</b></li>
 </ul>
