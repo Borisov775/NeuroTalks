@@ -9,7 +9,7 @@ of creating an archive of posts and links to lecture. </p>
 <p>Well, here we see the good example of using bookmarks.</p>
 
 3.[GroupOnTwitter](https://twitter.com/NatureNeuro) 
-<p>I know that's Twitter, but what i mostly like in this app is cool view of posts.And also there is ca</p>
+<p>I know that's Twitter, but what I mostly like in this app is cool view of posts.And also there is ca</p>
 
 Okay, let's sum up:
 
