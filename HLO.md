@@ -27,10 +27,10 @@ There are three types of user:
 For singing up you need to create a new login and password or you can sign in with Google,Twitter and Facebook.
 In order to become a publisher you send a request after signing up like a User.
 <h3>Functionality</h3>
-<b>IN THE DEVOLOPMENT(DURING THE IMPLEMENTATION I WILL BE UPDATING THIS PARAGRAPH)</b>
+<b>IN THE DEVELOPMENT(DURING THE IMPLEMENTATION I WILL BE UPDATING THIS PARAGRAPH)</b>
 <p>
-In a nutshell, every user will have an account. But the main actions will be procceding on the main page(HOME).On this page 
-users will be posting your works, links for the meetings, ideas. User serfing through these resources could attach to BOOKMARKS all what they find interesting.  
+In a nutshell, every user will have an account. But the main actions will be procceding on the main page(HOME). They may like post, marked it.On this page 
+users will be posting your works, links for the meetings, ideas. User serfing through these resources could attach to BOOKMARKS all what they find interesting. Also every user can become a publisher which means they may write a post.  
 <h3>Technical Details</h3>
 <ul>
 <li><b>Primary languages: Java,HTML</b></li>
