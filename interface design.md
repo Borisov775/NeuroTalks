@@ -1,2 +1,2 @@
-#Interface design
-<h1>List of iterfaces</h1>
+# Interface design
+<h1>List of interfaces</h1>
