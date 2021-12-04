@@ -1,5 +1,5 @@
 # Interface design
-## List of interfaces
+## <b>List of interfaces</b>
 <h2> Interfaces accessible for the Guest</h2>
 <ul>
     <li>Login page</li>
@@ -43,6 +43,6 @@
     <li>Acceptions of requests</li>
     <li>Logout page</li>
 <ul>
-<h1>Sketches of interfaces</h1>
+<h2><b>Sketches of interfaces</b></h2>
 Have a look at the [Skethes](https://miro.com/app/board/uXjVOdG-Bw0=/?invite_link_id=227142363482)
 
