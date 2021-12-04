@@ -13,6 +13,7 @@
     <li>My teams</li>
     <li>My requests</li>
     <li>Posts</li>
+    <li>Sending a request for becoming a Publisher</li>
     <li>Bookmarks</li>
     <li>Logout page</li>
 <ul>    
