@@ -43,6 +43,6 @@
     <li>Acceptions of requests</li>
     <li>Logout page</li>
 <ul>
-<h1>sketches of interfaces</h1>
-
+<h1>Sketches of interfaces</h1>
+Have a look at the [Skethes](https://miro.com/app/board/uXjVOdG-Bw0=/?invite_link_id=227142363482)
 
