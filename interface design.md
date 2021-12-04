@@ -40,6 +40,6 @@
     <li>Publishing</li>
     <li>Bookmarks</li>
     <li>Viewing statistics</li>
-    <li>Acceptions of reauests</li>
+    <li>Acceptions of requests</li>
     <li>Logout page</li>
 <ul>
