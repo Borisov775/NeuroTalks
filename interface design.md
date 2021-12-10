@@ -69,7 +69,7 @@ Have a look at the [Skethes](https://miro.com/app/board/uXjVOdQiEpg=/?invite_lin
     <li>getBookmarksWindow</li>
     <li>getPostWindow</li>
 </ul>
-<h2>Administrator<h2>
+<h2>Administrator</h2>
 <ul>
     <li>getHomeWindow</li>
     <li>getTeamsWindow</li>
