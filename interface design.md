@@ -52,3 +52,33 @@ Have a look at the [Skethes](https://miro.com/app/board/uXjVOdQiEpg=/?invite_lin
     <li>[UML state diagram for the Administrator](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Copy%20of%20Untitled%20Diagram.drawio.png#R7Vxbl5s2EP41e%2Fq0e7gbHu29JOnJdrd1c9mnHGxkmwYjB3Bt99dXAonLCNsYA8Zp9yEBIclImvm%2BmdGIG%2FV%2BuX0X2KvFM3aQd6NIzvZGfbhRFMUyJfIfLdklJaZlJgXzwHWSIjkrGLv%2FIFbI2s3XroPCQsUIYy9yV8XCKfZ9NI0KZXYQ4E2x2gx7xV9d2XMkFIyntieWfnGdaMFGoUtZ%2BXvkzhf8l2WJPVnavDIrCBe2gze5IvXxRr0PMI6Sq%2BX2Hnl08vi8JO2e9jxNXyxAflSlwfvhZ%2FftZfv2a%2FQpmP2%2B%2BbbQxj9uWS9%2F296aDZi9bLTjM0B6IZNNbkabhRuh8cqe0icbst6kbBEtPXInk8uZ63n32MNB3E6V4j9SHkYB%2Fo5yT56e2BNxCPx9UBChba6IDekdwksUBTtShT3VFD1pwuQrne5NtlrK4I5VWuSWSmUVbSYh87TvbBLJBZvHE%2BZUqTCnvjOkwknupp4dhu60OJUBXvsOoj9Cpwlt3egrvSbDSO7eWD16%2FbDNVXvY8RufDCXXiN6%2B5Z9lzeK7QrtXFLhkLlDACveuU4jXwRQdl6%2FIDuYoOlBPTeohp6CN4qrnVpWrYH5NeVmAPDty%2Fy7qcNlCs194xS4ZWU6opIJQqRqQlWTcrFVe52BHqlnsSAcdJRMjdBTLXTrs%2BqKolYii4UVUWXH8nplMGj%2FWmD%2B4DWMcHpIKsrbaZg%2FJ1TyKVdoO4uaIyC72ybuRUbwnr%2FvF9SnIsR8h5cnvJK1ENSDL%2FdGeEMooSL%2FtuXOfqgYRNyqDIwoHLsHkIXuwdB2H9jEKEHlTexL3RwV1RScynlp9dKM%2FlIruQZ2FuJMSC%2FuRAnaX4dGtdKdYxnlSyKvg2SxErciF2pJcUBHgpFpRBjKok49TjEAlKckA8nmK%2F5qhGNUEaKCLFCMrJWhktMUwg5aWb4zo6kUL%2Bu9rgMmcokS12c3p2j1mtyGaL8kKPGZFo5ocmGPAjA%2Bb5cD6dKdWpDuzIt0xCZTuTMWQBaFrkQEVrSjzmlyTARUJdATNrj0M2CUami2pU6pCPwsSylAqtEsjoVWydP%2FDUFUY4krdE7Mb8qxVE3PScXExVbq1uuUyr7oJQHlZIT8l6D%2BRvQxTY4uydFxyrRY41%2BSzLXBClqpSdLu4G3qmfMqFTjnUtM9PXJwblycmQj8LPd3KSt%2F4SRaDQQUlnmD8fWkH38NEg0f8lmtxm1xGV5sFXGWt3zxVNTyUQYCw7i3yljHYI3anEtcAxp0gA%2FbAWJbF2MEoE%2BJzMAPK40UwRFjLizv7shjEc9DUdWJXHdPx4jBibjq5ughyMKuYh6SrWMVno8YJYGAZRpd4MFCBGkPZqIoHsgQt2Yrx404BQRfk8zWWSGaZXj0kWHrvIEEMAD46Lp3yQ1G7y9gSBUsiMyz2bT%2FV2OqqjyRmRfvj5HCdYklql4gDo2w69Hgrh%2BsAdOkVAYeIir3LVWNuYPUX1qWD72WeVV0bFKqTi%2BR9u8dKMdQ4w55HtVMi0KVIa5%2FfX0Rb5dO0da%2FmNa9RsmEMLqpRUBEqaxQwKI2WNEqVT1MRWL8%2FOiLGdO8DZEfZ1lSE7GXCcPEDF%2FsvsyGNZexjukaM224oqWch2Vvgkabu0ckxWaOeGjQlVXwcUKri7AUJz%2BibpKJ19SarEAkzLm6zKmJQfJi08ldrKiiOHdEVcGlMe4qDgGbzCSuxwMvJOrzWVRiYFVchzSJsfhnEgGQP8LL70COf9aOWCu%2BxL4AMnNHByYDMG3a8KaaU5Bzpo99e6CbRKVzetzhW47bzcdGtamQr%2FbIlgGtp1vVRzSMa0JBBDQwWUz1sT0P7xjxgTjemU2WJYJdQmH5jvVwZ66u6pR1hvQZ9uroqc6sB8dShndeQ0kAzn7%2Fx%2FhezDjZoR29U0RbNpz5%2BClHwS8i8Afp%2FHJqxp1O0itJKAfqxRnGYexY%2F%2FosMzPXnsUFb4qk%2B7wrZGSVK2nIaBlRdUZ0OQ0wDeRkDcFSjGSVRCp3y3Nj24xSKGMt73mVCc%2F0%2BpA5MzR74kF2n%2B%2B3luzoGIuA7uTW%2Bq24g9ozvVJBfataONinWEWOzZW%2BH27pFb%2BftcZy6O1dLCI0l6t1Kd5ppaEX41s6TpA6OzlQJoFxVmtbxw3n9Op0n2Jh1062Ill42KK2KqT2ldiizNcPU2MysS9HS6C90pKrThC2pWEVrktuB5%2B77FTrlyW4dwIoYHoutyWzpr9%2BgVGGMxLq0QakalwbzbjcX%2BwXkME9Or3vgQ9ish9snDUU3BsAj0uXD0Q1Yf3BkTx6OA9RvKRgiBhHzJLTiGWXJJine%2BChjoFzq6dFcs55yEkeABjhJUiyryEn9t2bLzj7CxUs%2FAJI%2F4LGwV%2FQ5gb9xRJMzTvj%2Bx2zGyebomp39PRDLEDlGLYG01r4GolWhmP9AEL7qWQ%2B1XzEJDUJ%2B3VxuDcQ2rIoc1ZSmayUwT0GWQPpaTLToL2BrjQE2%2FVQHsPcbOijIu%2BFeBHdV2sdzrSxCetpRQdUoOyrIe5nwgk%2FPH%2BPeksQ8x7XnAd3rKDioQ2fp%2Bi7Bfzuipek5wwns9djZQ7LS0c2BA4Y%2B9iEDsaLqElvmQh0G3gboSobHjUS2ShGn8QShr9%2B2i2fvOZr%2F8fnN%2FnC%2FDJ6mH0q%2FXtXEWdPPLtok%2B2NUZohQuNN2jp42sComjB5LHTqqpatS9sGeNv3UVjPCD8ldT2hfBzvv6TeATqV9HWSrmC1tvMuyVf7Ge8%2BWwQYgweVsZ7N0lcWzYs2hS0o74xzAUN80u7%2BCjyMcVP8GnFQi2kUnVTlPYRq1aUoHLxquwzgVI84WDHlgQoiRT9AULxPGoXnFq%2FXEc8MFDV6cwy4t2AA63IWoyjZwd7Qxtin9gEmbdJOf1fwxwFqJmJd0aQ8JcF%2BoDX7EqW7UVQcEInz2oDmPtlxK2zJVh3syvSiX5KGnd2wC1agiu8j7IKsGvWimBHb0z%2BQXnjxcdNRhOkcd9iG32deXk%2BrZN6zVx38B)</li>
 </ul>
 <h2><b>List of all commands</b></h2>
+<h2>Guest</h2>
+<ul>
+    <li>getLogonWindow</li>
+    <li>getRegistrationWindow</li>
+    <li>getLoginWindow</li>
+<ul>
+<h2>User or Publisher</h2>
+<ul>
+    <li>getHomeWindow</li>
+    <li>getTeamsWindow</li>
+    <li>getProfileWindow</li>
+    <li>getMyTeamsWindow</li>
+    <li>getCreationOfATeamWindow</li>
+    <li>getAcceptationsWindow</li>
+    <li>getBookmarksWindow</li>
+    <li>getPostWindow</li>
+</ul>
+<h2>Administrator<h2>
+<ul>
+    <li>getHomeWindow</li>
+    <li>getTeamsWindow</li>
+    <li>getProfileWindow</li>
+    <li>getMyTeamsWindow</li>
+    <li>getCreationOfATeamWindow</li>
+    <li>getAcceptationsWindow</li>
+    <li>getBookmarksWindow</li>
+    <li>getPostWindow</li>
+    <li>getAcceptationsWindow</li>
+    <li>getStatisticsWindow</li>
+<ul>
