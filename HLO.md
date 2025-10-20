@@ -1,7 +1,5 @@
 # Neuro-BioTalks
 
- Developers:
-1. George Borisov
 <h2>Introduction</h2>
 In the 21 century, there are thousands of research works and communities that dedicate their time to exploring the biology of our brain. 
 Those works have been started at about 50 years ago, but the most significant steps will take a place in the nearest future. Luckily we have more and more startups willing to take a part in creating technologies that potentially could make our medicine more capable to help people with brain damages, Parkinson's and Alzheimer's. We could use those technologies in many kinds of humankind's activities, for example, astronauts using non-implanted BCI could remote control the manipulator instead of going out in space to catch radiation. All in all, I think Biotechnologies in collaboration with Engineering and Neuroscience could make our future better and healthier.
@@ -9,12 +7,14 @@ Those works have been started at about 50 years ago, but the most significant st
 Mission
 The platform provides a secure environment for sharing knowledge, research, and innovation at the intersection of neuroscience, biotechnology, and defense technologies.
 Its purpose is to unite scientists, engineers, defense analysts, and innovators who study or develop solutions related to:
-Neuroengineering and Brain–Computer Interfaces (BCI)
-Cognitive performance, resilience, and decision-making enhancement
-Human–machine teaming and autonomous system control
-Neural data protection, cybersecurity of neural interfaces
-Medical and rehabilitation technologies for soldiers
-Ethical, psychological, and strategic aspects of brain-related research in defense
+<ol>
+ <li>Neuroengineering and Brain–Computer Interfaces (BCI)</li>
+ <li>Cognitive performance, resilience, and decision-making enhancement</li>
+ <li>Human–machine teaming and autonomous system control</li>
+ <li>Neural data protection, cybersecurity of neural interfaces</li>
+ <li>Medical and rehabilitation technologies for soldiers</li>
+ <li>Ethical, psychological, and strategic aspects of brain-related research in defense</li>
+</ol>
 Our vision of project:
 To create a strategic bridge between civilian biotechnology research and military innovation, allowing transparent collaboration and responsible development of neuro-technologies that improve human capability, decision accuracy, and resilience under operational stress.
 <h2> Benefits of Neuro-BioTalks</h2>
