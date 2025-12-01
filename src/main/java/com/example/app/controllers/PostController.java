@@ -45,7 +45,14 @@ public class PostController {
         String NameOfUser=userEntity.getFirstName()+" "+userEntity.getLastName()+" ";
         int timeOfCreation_1=LocalDate.now().getDayOfMonth();
         int timeOfCreation_2=LocalDate.now().getYear();
-        String shortDescription=full_text.substring(0,100)+"...";
+        String shortDescription;
+        if (full_text == null) {
+            shortDescription = "";
+        } else if (full_text.length() > 100) {
+            shortDescription = full_text.substring(0, 100) + "...";
+        } else {
+            shortDescription = full_text;
+        }
         String timeOfCreation=(timeOfCreation_1)+" "+ String.valueOf(LocalDate.now().getMonth())+" "+timeOfCreation_2;
         Post post=new Post(topic,full_text,urlImage,NameOfUser,username+" ",timeOfCreation,theme,shortDescription,profile_id);
         repository.save(post);
