@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Two-Factor Authentication</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 640px; margin: 2rem auto; }
+        .container { border: 1px solid #ddd; padding: 1.5rem; border-radius: 6px; }
+        .qr { text-align: center; margin-bottom: 1rem; }
+        input[type="text"] { width: 100%; padding: 0.5rem; font-size: 1rem; }
+        button { padding: 0.6rem 1rem; font-size: 1rem; margin-top: 0.5rem; }
+        .notice { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+        .error { color: red; }
+    </style>
+    <script>
+        async function verifyCode(event) {
+            event.preventDefault();
+            const code = document.getElementById('code').value.trim();
+            if (!code) { showError('Введите 6-значный код из приложения-аутентификатора.'); return; }
+            try {
+                const resp = await fetch('/api/2fa/verify', {
+                    method: 'POST',
+                    credentials: 'same-origin',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ code })
+                });
+
+                const contentType = resp.headers.get('content-type') || '';
+                let data = {};
+                if (contentType.includes('application/json')) {
+                    data = await resp.json().catch(() => ({}));
+                }
+
+                if (resp.ok) {
+                    if (data.verified === true) {
+                        // go to the app homepage (not root which may 404)
+                        window.location = '/homepage';
+                        return;
+                    }
+                    showError(data.error || 'Verification failed.');
+                    return;
+                }
+
+                if (resp.status === 401) {
+                    showError('Неавторизовано — войдите в систему и попробуйте снова.');
+                    return;
+                }
+                if (resp.status === 403) {
+                    showError('Неверный код. Попробуйте ещё раз.');
+                    return;
+                }
+
+                showError(data.error || ('Ошибка: ' + resp.status));
+            } catch (err) {
+                showError('Сетевая ошибка. Попробуйте ещё раз.');
+            }
+        }
+        function showError(msg) {
+            const el = document.getElementById('error');
+            el.textContent = msg; el.style.display = msg ? 'block' : 'none';
+        }
+        async function fetchSetup() {
+            try {
+                const r = await fetch('/api/2fa/setup', { credentials: 'same-origin' });
+                const statusEl = document.getElementById('status');
+                if (r.status === 401) {
+                    statusEl.textContent = 'Пожалуйста, войдите в систему, чтобы настроить 2FA.';
+                    document.getElementById('qr').textContent = '';
+                    return;
+                }
+                if (!r.ok) {
+                    statusEl.textContent = 'Не удалось получить данные для настройки 2FA.';
+                    return;
+                }
+                const json = await r.json();
+                const qr = document.getElementById('qr');
+                const secret = document.getElementById('secret');
+                if (json.otpAuthUrl) {
+                    // use server-side QR PNG endpoint instead of external Google Charts
+                    qr.innerHTML = '<img src="/api/2fa/qrcode" alt="QR Code"/>';
+                    statusEl.textContent = '';
+                }
+                if (json.secret) secret.textContent = json.secret;
+            } catch (e) { /* ignore */ }
+        }
+        window.addEventListener('load', fetchSetup);
+    </script>
+</head>
+<body>
+<div class="container">
+    <h2>Two-Factor Authentication Setup</h2>
+    <p class="notice">Scan the QR code with your authenticator app (Google Authenticator, Authy). Then enter the 6-digit code below.</p>
+    <div class="qr" id="qr">Loading QR...</div>
+    <div id="status" class="notice" style="margin-top:0.5rem"></div>
+    <div class="notice">Manual secret: <span id="secret" style="font-family:monospace"></span></div>
+
+    <form onsubmit="verifyCode(event)">
+        <label for="code">Authenticator code</label>
+        <input id="code" name="code" type="text" maxlength="6" autocomplete="one-time-code" />
+        <div id="error" class="error" style="display:none;margin-top:0.5rem"></div>
+        <button type="submit">Verify</button>
+    </form>
+    <p style="margin-top:1rem; font-size:0.9rem; color:#666">If you already set up 2FA, just enter the code from your app.</p>
+</div>
+</body>
+</html>

@@ -5,6 +5,10 @@ import com.example.app.models.Post;
 import com.example.app.models.UserEntity;
 import com.example.app.repo.PostRepository;
 import com.example.app.repo.UserRepo;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,6 +25,7 @@ import java.util.Optional;
 
 @Controller
 @Service
+@Api(value = "Home", description = "Homepage endpoints")
 public class HomeController {
     @Autowired
     private PostRepository repository;
@@ -29,6 +34,11 @@ public class HomeController {
 
 
     @GetMapping("/homepage")
+    @ApiOperation(value = "Get Homepage", notes = "Displays all posts and user email for authenticated users")
+    @ApiResponses(value = {
+        @ApiResponse(code = 200, message = "Success - returns home-page view"),
+        @ApiResponse(code = 401, message = "Unauthorized - requires ROLE_USER or ROLE_ADMIN")
+    })
     public String homepageMakePostsAlive(Model model){
         Iterable<Post> posts=repository.findAll();
 
@@ -52,6 +62,8 @@ public class HomeController {
 
 
     @PostMapping("/homepage")
+    @ApiOperation(value = "Post Homepage", notes = "Returns home-page view")
+    @ApiResponse(code = 200, message = "Success - returns home-page view")
     public String login(){
             return "home-page";
         }

@@ -11,5 +11,5 @@ import java.beans.JavaBean;
 
 @Repository
 public interface PostRepository extends CrudRepository<Post,Long>{
-
+    long countByEmail(String email);
 }

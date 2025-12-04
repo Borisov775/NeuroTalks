@@ -7,9 +7,9 @@
     <style>
         body {font-family: "Lato", sans-serif;}
 
-        .sidebar {
+       .sidebar {
             height: 100%;
-            width: 160px;
+            width: 100px;
             position: fixed;
             z-index: 1;
             top: 0;
@@ -18,7 +18,15 @@
             overflow-x: hidden;
             padding-top: 16px;
         }
+        .submit-btn {
+            margin-left: 25px;
+            cursor: pointer;
+            width: 50px;
+            background: none;
+            border: none;
+            outline: none;
 
+        }
 
         .sidebar a:link{
             color: black;
@@ -39,7 +47,7 @@
             margin-top: 350px;
         }
         .main {
-            margin-left: 160px; /* Same as the width of the sidenav */
+            margin-left: 100px; /* Same as the width of the sidenav */
             padding: 0px 10px;
         }
         .bi {
@@ -124,43 +132,69 @@
     </div>
     <div class="icon ic6">
         <form th:action="@{/logout}" method="post">
-            <input type="submit" value="Sign Out"/>
+            <button type="submit" class="submit-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi-box-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                    <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                </svg>
+            </button>
         </form>
-        <a th:action="@{/logout}" >
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
-                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-            </svg>
-        </a>
     </div>
 </div>
 
 <div class="main">
-    <H1>Profile</H1>
-    <div class="container">
+    <H1>Профиль пользователя</H1>
+    <div th:if="${user != null}" class="container">
             <div  class="userInf">
                 <img class="avatar" src="https://i.pinimg.com/736x/d8/9b/50/d89b50e983cda291960cc8af73965629--anne-kendrick-gwen-stacy.jpg" >
-                <h2 th:text="${user.firstName}" class="nameOfUser"></h2>
-                <p th:text="">emmast@gmail.com</p>
+                <h2 class="nameOfUser"><span th:text="${user.firstName}"></span> <span th:text="${user.lastName}"></span></h2>
+                <p th:text="${user.email}">email@example.com</p>
             </div>
             <div class="credentials">
                 <table>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Email:</strong></p></td>
+                        <td><p th:text="${user.email}">email@example.com</p> </td>
                     </tr>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Имя:</strong></p></td>
+                        <td><p th:text="${user.firstName}">First Name</p> </td>
                     </tr>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Фамилия:</strong></p></td>
+                        <td><p th:text="${user.lastName}">Last Name</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Пол:</strong></p></td>
+                        <td><p th:text="${user.sex}">Sex</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Страна:</strong></p></td>
+                        <td><p th:text="${user.country}">Country</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Область исследований:</strong></p></td>
+                        <td><p th:text="${user.researchArea}">Research Area</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Статус:</strong></p></td>
+                        <td><p th:text="${user.status}">Status</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>2FA включена:</strong></p></td>
+                        <td><p th:text="${user.twoFactorEnabled ? 'Да' : 'Нет'}">Status</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Количество публикаций:</strong></p></td>
+                        <td><p th:text="${publicationCount}">0</p> </td>
                     </tr>
                 </table>
             </div>
 
 
+    </div>
+    <div th:if="${user == null}" class="alert alert-danger">
+        <p>Пользователь не найден</p>
     </div>
 </div>
 
