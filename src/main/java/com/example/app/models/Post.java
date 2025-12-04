@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.Lob;
 import java.sql.Blob;
 import java.time.LocalDate;
 
@@ -48,7 +50,11 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private Long profile_id;
-    private String topic,full_text,urlImage,nameOfUser,email,timeOfCreation,theme,shortDescription;
+    private String topic, urlImage, nameOfUser, email, timeOfCreation, theme, shortDescription;
+
+    @Lob
+    @Column(columnDefinition = "TEXT")
+    private String full_text;
     private int views;
 
     public Long getProfile_id() {

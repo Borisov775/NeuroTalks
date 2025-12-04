@@ -145,6 +145,11 @@
     <div  class="container mt-5">
         <h3>Research Area: <span class="topic" th:text="${post.topic}"></span> </h3>
         <h3>Written by <span class="topic" th:text="${post.nameOfUser}"></span> </h3>
+        <div th:if="${isAuthor}" style="text-align:right; margin-top:10px;">
+            <form th:action="@{'/homepage/post/' + ${post.id} + '/delete'}" method="post" onsubmit="return confirm('Удалить этот пост?');">
+                <button type="submit" class="btn btn-danger">Удалить пост</button>
+            </form>
+        </div>
         <h3>Published on<span> </span><span class="topic" th:text="${post.timeOfCreation}"></span> </h3>
         <h2 class="main_theme" th:text="${post.theme}"> </h2>
         <img class="image" th:src="@{${post.urlImage}}"></img>
