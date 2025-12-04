@@ -143,31 +143,58 @@
 </div>
 
 <div class="main">
-    <H1>Profile</H1>
-    <div class="container">
+    <H1>Профиль пользователя</H1>
+    <div th:if="${user != null}" class="container">
             <div  class="userInf">
                 <img class="avatar" src="https://i.pinimg.com/736x/d8/9b/50/d89b50e983cda291960cc8af73965629--anne-kendrick-gwen-stacy.jpg" >
-                <h2 th:text="${user.firstName}" class="nameOfUser"></h2>
-                <p th:text="">emmast@gmail.com</p>
+                <h2 class="nameOfUser"><span th:text="${user.firstName}"></span> <span th:text="${user.lastName}"></span></h2>
+                <p th:text="${user.email}">email@example.com</p>
             </div>
             <div class="credentials">
                 <table>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Email:</strong></p></td>
+                        <td><p th:text="${user.email}">email@example.com</p> </td>
                     </tr>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Имя:</strong></p></td>
+                        <td><p th:text="${user.firstName}">First Name</p> </td>
                     </tr>
                     <tr>
-                        <td><p>Alpha</p></td>
-                        <td><p>Beta</p> </td>
+                        <td><p><strong>Фамилия:</strong></p></td>
+                        <td><p th:text="${user.lastName}">Last Name</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Пол:</strong></p></td>
+                        <td><p th:text="${user.sex}">Sex</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Страна:</strong></p></td>
+                        <td><p th:text="${user.country}">Country</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Область исследований:</strong></p></td>
+                        <td><p th:text="${user.researchArea}">Research Area</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Статус:</strong></p></td>
+                        <td><p th:text="${user.status}">Status</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>2FA включена:</strong></p></td>
+                        <td><p th:text="${user.twoFactorEnabled ? 'Да' : 'Нет'}">Status</p> </td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Количество публикаций:</strong></p></td>
+                        <td><p th:text="${publicationCount}">0</p> </td>
                     </tr>
                 </table>
             </div>
 
 
+    </div>
+    <div th:if="${user == null}" class="alert alert-danger">
+        <p>Пользователь не найден</p>
     </div>
 </div>
 
